@@ -1,0 +1,181 @@
+* {
+  font-family: sans-serif, Arial, Helvetica, '微軟正黑體';
+}
+
+
+/* 顏色 */
+.text-yellow {
+  color: #ffd366
+}
+
+.bg-yellow {
+  background-color: #ffd366;
+}
+
+.input-bmi {
+  background-color: #646464;
+  border: 2px #ffd366 solid;
+  color: #fff;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #b1b1b1;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  color: #b1b1b1;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #b1b1b1;
+  opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #b1b1b1;
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  color: #b1b1b1;
+  opacity: 1;
+}
+
+
+/* 按鈕 */
+.btn-check {
+  width: 117px;
+  height: 117px;
+  font-size: 1.5rem;
+  background-color: #ffd366;
+}
+
+.btn-check:hover {
+  box-shadow: 0 0 10px #ffd366;
+}
+
+.btn-check:active {
+  background-color: #dea821;
+  box-shadow: 0 0 0 #000
+}
+
+
+/* BMI顯示 */
+.bmi-result {
+  width: 117px;
+  height: 117px;
+  padding: 30px 0;
+  position: relative;
+}
+
+.bmi-circle {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: -10px;
+  bottom: 5px;
+}
+
+.border-dark {
+  border-width: 3px !important;
+}
+
+.bmi-text-type1 {
+  position: absolute;
+  right: -80%;
+  top: 40%;
+}
+
+.bmi-text-type2 {
+  position: absolute;
+  right: -140%;
+  top: 40%;
+}
+
+/* BMI結果顏色 */
+/* 過輕 */
+.text-tLight {
+  color: #31baf9;
+}
+
+.border-tLight {
+  border-width: 5px !important;
+  border-color: #31baf9 !important;
+}
+
+.bg-tLight {
+  background:#31baf9 url(../images/icons_loop.png) center center no-repeat ;
+}
+
+/* 理想 */
+.text-great {
+  color: #86d73f;
+}
+
+.border-great {
+  border-width: 5px !important;
+  border-color: #86d73f !important
+}
+
+.bg-great {
+  background:#86d73f url(../images/icons_loop.png) center center no-repeat;
+}
+
+
+/* 過重 */
+.text-weight {
+  color: #ff982d;
+}
+
+.border-weight {
+  border-width: 5px !important;
+  border-color: #ff982d !important
+}
+
+.bg-weight {
+  background:#ff982d url(../images/icons_loop.png) center center no-repeat;
+}
+
+/* 輕度肥胖 */
+.text-heavy {
+  color: #ff6c03;
+}
+
+.border-heavy {
+  border-width: 5px !important;
+  border-color: #ff6c03 !important
+}
+
+.bg-heavy {
+  background:#ff6c03 url(../images/icons_loop.png) center center no-repeat;
+}
+
+/* 中度肥胖 */
+.text-mFat {
+  color: #ff6c03;
+}
+
+.border-mFat {
+  border-width: 5px !important;
+  border-color: #ff6c03 !important
+}
+
+.bg-mFat {
+  background:#ff6c03 url(../images/icons_loop.png) center center no-repeat;
+}
+
+/* 重度肥胖 */
+.text-dFat {
+  color: #ff1200;
+}
+
+.border-dFat {
+  border-width: 5px !important;
+  border-color: #ff1200 !important
+}
+
+.bg-dFat {
+  background:#ff1200 url(../images/icons_loop.png) center center no-repeat;
+}
